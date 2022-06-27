@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "backend de apis",
   "main": "index.js",
+  "engines": {
+    "node": "16.15.1"
+  },
   "scripts": {
     "start:dev": "nodemon .",
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Hansel Colmenarez",
   "license": "ISC",
