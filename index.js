@@ -12,6 +12,6 @@ app.use(express.json());
 app.use(cors());
 app.use('/api/comentarios', require('./routes/comentario'));
 
-app.listen(process.env.PORT || 5000, () => {
+app.listen(process.env.PORT, () => {
     console.log("El servidor se ha iniciado correctamente en el puerto: " + process.env.PORT);
 })
