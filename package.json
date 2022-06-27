@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start:dev": "nodemon .",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "author": "Hansel Colmenarez",
   "license": "ISC",
