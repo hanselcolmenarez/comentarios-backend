@@ -1,0 +1,21 @@
+{
+  "name": "comentarios-backend",
+  "version": "1.0.0",
+  "description": "backend de apis",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon .",
+    "start": "nodemon index.js"
+  },
+  "author": "Hansel Colmenarez",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.3.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0"
+  }
+}
